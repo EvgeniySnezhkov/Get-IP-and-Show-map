@@ -25,7 +25,7 @@ class IpTools:
                     ip_address = socket.gethostbyname(request)
                     return [ip_address]
                 except socket.gaierror:
-                    print(f"IP no enter correctly"
+                    print(f"IP is introduced incorrectly"
                           f" or page and address not responsing for query"
                           f" {request}, \n Will be shown your public IP")
             else:
